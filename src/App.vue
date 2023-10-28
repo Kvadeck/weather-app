@@ -72,9 +72,16 @@ export default {
 
 body {
   font-family: 'Montserrat', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #9E9E9E;
 }
 
 #app {
+  width: 360px;
+  height: 640px;
   background-image: url("./assets/cold-bg.jpg");
   background-size: cover;
   background-position: bottom;
@@ -86,7 +93,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 640px;
   padding: 25px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
 }
@@ -94,6 +101,7 @@ main {
 .search-box {
   width: 100%;
   margin-bottom: 30px;
+  margin-top: 25px;
 }
 
 .search-box .search-bar {
