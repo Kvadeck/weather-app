@@ -1,4 +1,4 @@
-# weather-app
+# weather-app from https://www.youtube.com/watch?v=JLc-hWsPTUY&ab_channel=TylerPotts
 
 ## Project setup
 ```
